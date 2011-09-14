@@ -1,0 +1,38 @@
+{
+  "spade": {
+    "version": "1.0.1",
+    "path": "/Users/jamescroft/.bpm/gems/spade-1.0.1"
+  },
+  "sproutcore": {
+    "version": "2.0.beta.3.1",
+    "path": "/Users/jamescroft/.bpm/gems/sproutcore-2.0.beta.3.1"
+  },
+  "sproutcore-runtime": {
+    "version": "2.0.beta.3",
+    "path": "/Users/jamescroft/.bpm/gems/sproutcore-runtime-2.0.beta.3"
+  },
+  "sproutcore-views": {
+    "version": "2.0.beta.3",
+    "path": "/Users/jamescroft/.bpm/gems/sproutcore-views-2.0.beta.3"
+  },
+  "sproutcore-handlebars": {
+    "version": "2.0.beta.3",
+    "path": "/Users/jamescroft/.bpm/gems/sproutcore-handlebars-2.0.beta.3"
+  },
+  "sproutcore-handlebars-format": {
+    "version": "2.0.beta.3.1",
+    "path": "/Users/jamescroft/.bpm/gems/sproutcore-handlebars-format-2.0.beta.3.1"
+  },
+  "sproutcore-metal": {
+    "version": "2.0.beta.3",
+    "path": "/Users/jamescroft/.bpm/gems/sproutcore-metal-2.0.beta.3"
+  },
+  "jquery": {
+    "version": "1.6.2",
+    "path": "/Users/jamescroft/.bpm/gems/jquery-1.6.2"
+  },
+  "handlebars": {
+    "version": "1.0.0.beta.3",
+    "path": "/Users/jamescroft/.bpm/gems/handlebars-1.0.0.beta.3"
+  }
+}

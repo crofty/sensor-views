@@ -1,0 +1,21 @@
+{
+  "name": "sensor-views",
+  "bpm": "1.0.0",
+  "version": "0.0.1",
+  "dependencies": {
+    "spade": "~> 1.0",
+    "sproutcore": ">= 0.pre"
+  },
+  "bpm:build": {
+    "bpm_libs.js": {
+      "files": [
+        "lib"
+      ]
+    },
+    "bpm_styles.css": {
+      "files": [
+        "css"
+      ]
+    }
+  }
+}
