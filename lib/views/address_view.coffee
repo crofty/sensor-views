@@ -6,7 +6,7 @@ Sensor.Views.AddressView = SC.View.extend
   template: SC.Handlebars.compile "{{content.address}}"
   classNames: 'address'
   addressNeedsGeocoding: (message) ->
-    message && message.get('addressType') == Sensor.Address.NOMINATIM
+    message && message.get('address_type') != 'google'
   didInsertElement: ->
     @_super()
     # This address is being displayed to the user and therefore, if this address has
