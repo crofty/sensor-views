@@ -15,7 +15,7 @@ Sensor.Views.VehicleMapView = SC.View.extend
   _createJourneysOnMap: ( ->
     map = @get('map')
     if map
-      console.log "creating journeys on map"
+      # console.log "creating journeys on map"
       journeys = @getPath('content.journeys')
       journeys.forEach (journey) =>
         points = journey.get('messages').map (m) -> [m.get('lat'), m.get('lon')]
@@ -29,7 +29,7 @@ Sensor.Views.VehicleMapView = SC.View.extend
   _createStartLocationOnMap: ( ->
     map = @get('map')
     if map
-      console.log "creating start location on map"
+      # console.log "creating start location on map"
       stop = @getPath('content.startLocation')
       marker = SM.HoverableMarker.create
         lat: stop.get('lat')
@@ -42,7 +42,7 @@ Sensor.Views.VehicleMapView = SC.View.extend
   _createStopsOnMap: ( ->
     map = @get('map')
     if map
-      console.log "creating stops on map"
+      # console.log "creating stops on map"
       stops = @getPath('content.stops')
       stops.forEach (stop) =>
         marker = SM.HoverableMarker.create
